@@ -3,10 +3,12 @@
 from itemmodule import *
 from moveDictionary import *
 from robotClass import *
+from RobotBattleScene import *
 
 def main():
-    initializeGame()
     gameIntro()
+    #RobotBattleScene.main()
+    
 
 def gameIntro():
     print("Hello there!  Welcome to the exciting world",
@@ -16,6 +18,5 @@ def gameIntro():
     print("Here, why don't I give you some pieces that you can use to build",
           "your own?")
 
-def initializeGame():
 
 main()
